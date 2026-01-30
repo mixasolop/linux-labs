@@ -1,0 +1,13 @@
+SET Alice foo Lorem_ipsum_dolor_sit_amet
+SET Alice bar Galia_est_omnis_divisa_in_partes_tres
+SET Alice dir/baz exegi_monumentum_aere_perennius
+SET Alice dir/rat domi_suae_quisque_rex
+SET Bob file1 text1
+SET Bob file2 text2
+SET Bob file3 text3
+GET Alice dir/baz
+GET Bob file2
+SHARE Alice foo
+SHARE Alice dir/baz
+SHARE Bob file1
+ERASE Bob file1

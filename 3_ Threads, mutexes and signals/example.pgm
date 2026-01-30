@@ -1,0 +1,5 @@
+P2 # magic number
+5 5 # width height
+255 # maximum value
+# This is the end of the header
+0 255 0 255 0 0 255 0 255 0 0 0 0 0 0 255 0 0 0 255 0 255 255 255 0
