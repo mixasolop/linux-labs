@@ -13,5 +13,5 @@ The program demonstrates:
 ## How to build
 make
 
-###How to run
+### How to run
 ./ops-drive
