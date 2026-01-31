@@ -10,4 +10,4 @@ This lab demonstrates threads and basic synchronization.
 ## How to build
 make
 ### How to run
-./threads_mutexes
+./sop_lmap
