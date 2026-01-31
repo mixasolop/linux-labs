@@ -1,21 +1,24 @@
-# Linux Concurrency & Process Labs (C, Linux)
+# Linux Labs – Concurrency and Operating Systems (C)
 
-This repository contains **hands-on C labs focused on Linux systems programming and concurrency**, developed as part
-of operating system and systems programming course in uni. These examples demonstrate core concepts of OS like
-thread synchronization, process creation, and inter-thread communication using POSIX APIs.
+This repository contains laboratory exercises written in C and tested on Linux.
 
+All programs use POSIX APIs and focus on operating system work,
+especially processes, threads, and synchronization.
 
+## What is covered
+- POSIX threads (pthread)
+- Mutexes
+- Semaphores
+- Condition variables
+- Barriers
+- Process creation using fork()
+- Basic parent–child synchronization
 
+## Tools
+- Language: C
+- OS: Linux
+- Libraries: pthread, semaphore, unistd
+- Debugging: gdb (basic)
 
-------
-
-
-The code in this repo exercises several OS concepts:
-
-- **POSIX threads (`pthread`)**
-- **Thread synchronization primitives** (mutexes, semaphores, condition variables, barriers)
-- **Process creation and control** (`fork`, `wait`)
-- **Race condition management and correct synchronization**
-- **Basic inter-thread and inter-process coordination**
-
-Each example focuses on one or two concepts and illustrates how to use them in practice.
+Each folder contains a small example program and a short README explaining
+what problem it solves and how it works.
