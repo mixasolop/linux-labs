@@ -1,3 +1,23 @@
+
+# Synchronization Lab (Linux C)
+
+This lab focuses on advanced synchronization between threads or processes.
+
+## What this lab shows
+- Condition variables (`pthread_cond_t`)
+- Semaphores (`sem_t`)
+- Barriers and thread coordination
+- Use cases where simple mutexes are not enough
+
+## How to build
+make
+
+### How to run
+./sync_lab
+
+# Lab task
+
+
 Lab15: Synchronization - OMEGALIDL
 
 There is a flash sale on the new "Lidlomix 3000". Crowds are gathering outside the shop since dawn. To keep everything civil, the management has decided to enforce strict safety measures.
